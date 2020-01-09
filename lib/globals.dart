@@ -35,6 +35,7 @@ int selectedTimeForHomework = 1;
 List<int> idoAdatok = [1, 7, 30, 60];
 Average selectedAverage;
 List<Evaluation> currentEvals = new List();
+String userAgent = "Kreta.Ellenorzo/2.9.3.2019100701 (Android; coral 0.0)";
 int themeID = 0;
 String htmlFAQ = "betöltés...";
 
