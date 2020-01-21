@@ -2,10 +2,12 @@
 
 A Szivacs Napló: egy multiplatformos kliensalkalmazás az e-napló rendszerhez.
 
-Ez az app Boapps naplójának a forkja, amely próbálja visszaállítani a használhatóságot és hozzáadni pár új funkciót az upstream branchhez képest.
+Ez az app a Boapps által befejezett Szivacs Napló forkja, amely próbálja visszaállítani a használhatóságot és hozzáadni új funkciókat, amelyek az upstream branchben nem voltak elérhetőek.
 
+Sosem lesznek reklámok vagy nem-szabad komponensek a programban, mivel szerintem szabadságot kellene előnybe részesíteni egy olyan alkalmazásnál, amit minden tanulónak kötelező használni.
 
 #### Jelenlegi funkciók:
+
 * "faliújság"
 * jegyek
 * órarend
@@ -17,7 +19,14 @@ Ez az app Boapps naplójának a forkja, amely próbálja visszaállítani a hasz
 * értesítések
 * grafikonok
 
+#### Feljesztés alatt:
+
+ * Egy letisztultabb, kevesebb dependency-t követelő felhasználói felület.
+ * Kisebb hibajavítások
+ * Linux kompatibilitás, a Linuxos mobiltelefonok érdekében
+
 ## Telepítés
+
 #### Építés forráskódból:
 * `git clone https://github.com/OliverParoczai/Szivacs-Naplo`
 * `cd Szivacs-Naplo`
@@ -29,7 +38,7 @@ Még nincs F-Droid-ra feltöltve, de dolgozok rajta
 
 #### iOS:
 
-Az alkalmazás működik iOS-en is, mert Flutterben készült.
+Az alkalmazás működik iOS-en is, mivel Flutterben készült.
 
 Ennek ellenére [hajducsekb](https://github.com/hajducsekb) legyártott egy [.ipa fájlt](https://www.dropbox.com/s/3vzrqagpfhb6g8l/flutter_naplo.ipa?dl=0), amit Cydia Impactorral fel lehet telepíteni. [További infó a telepítésről](https://github.com/boapps/e-Szivacs-2/issues/30)
 
@@ -48,30 +57,5 @@ Ennek ellenére [hajducsekb](https://github.com/hajducsekb) legyártott egy [.ip
   * [background_fetch](https://github.com/transistorsoft/flutter_background_fetch)
 
 ## Licensz:
-```
-BSD 2-Clause License
 
-Copyright (c) 2019, Botos András
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
+A szoftver a BSD-2 Clause szoftverlicensz alatt érhető el, amely megtalálható a [LICENSE](https://github.com/OliverParoczai/Szivacs-Naplo/blob/master/LICENSE) fájlban.
