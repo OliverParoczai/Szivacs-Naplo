@@ -1,8 +1,11 @@
 # Szivacs Napló
 
-A Szivacs Napló: egy multiplatformos kliensalkalmazás az e-napló rendszerhez.
+<img src="https://github.com/OliverParoczai/Szivacs-Naplo/blob/master/assets/icon.png" align="right"
+     title="Szivacs Logó" width="180" height="180">
+   
+A Szivacs Napló: egy nyílt forráskódú multiplatformos kliensalkalmazás a magyar e-napló rendszerhez.
 
-Ez az app a Boapps által befejezett Szivacs Napló forkja, amely próbálja visszaállítani a használhatóságot és hozzáadni új funkciókat, amelyek az upstream branchben nem voltak elérhetőek.
+Ez az alkalmazás a *Boapps* által fejlesztett *Szivacs Napló forkja*, amely próbálja visszaállítani a **használhatóságot** és **hozzáadni új funkciókat**, amelyek az upstream branchben nem voltak elérhetőek.
 
 Sosem lesznek reklámok vagy nem-szabad komponensek a programban, mivel szerintem szabadságot kellene előnybe részesíteni egy olyan alkalmazásnál, amit minden tanulónak kötelező használni.
 
@@ -28,9 +31,15 @@ Sosem lesznek reklámok vagy nem-szabad komponensek a programban, mivel szerinte
 ## Telepítés
 
 #### Építés forráskódból:
-* `git clone https://github.com/OliverParoczai/Szivacs-Naplo`
-* `cd Szivacs-Naplo`
-* `flutter build apk --debug` vagy `flutter run`
+<details><summary><b>Instrukciók megjelenítése</b></summary>
+ 
+1. A forráskód klónozása egy helyi számítógépre: `git clone https://github.com/OliverParoczai/Szivacs-Naplo`
+
+2. A letöltött forráskód mappájának megnyitása: `cd Szivacs-Naplo`
+
+3. A forráskód megépítése: `flutter build apk --debug` vagy `flutter run`
+
+</details>
 
 #### Android:
 
