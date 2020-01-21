@@ -2,7 +2,7 @@
 
 A Szivacs Napló: egy multiplatformos kliensalkalmazás az e-napló rendszerhez.
 
-Ez a play áruházas verziója a Szivacs Naplónak, amiben vannak opcionális (bekapcsolható, de alapból kikapcsolt) reklámok. A foss branchben van a reklámmentes és google-dependency mentes verzió. Ígérem, hogy soha nem lesz erőltetett reklám a Szivacsban és mindig lesz egy "Google Play Services"-mentes teljesen FOSS verziója is az appnak.
+Ez az app Boapps naplójának a forkja, amely próbálja visszaállítani a használhatóságot és hozzáadni pár új funkciót az upstream branchhez képest.
 
 
 #### Jelenlegi funkciók:
@@ -17,9 +17,9 @@ Ez a play áruházas verziója a Szivacs Naplónak, amiben vannak opcionális (b
 * értesítések
 * grafikonok
 
-## Letöltés
-#### Forráskódból:
-* `git clone https://github.com/boapps/Szivacs-Naplo`
+## Telepítés
+#### Építés forráskódból:
+* `git clone https://github.com/OliverParoczai/Szivacs-Naplo`
 * `cd Szivacs-Naplo`
 * `flutter build apk --debug` vagy `flutter run`
 
@@ -28,11 +28,10 @@ Ez a play áruházas verziója a Szivacs Naplónak, amiben vannak opcionális (b
 Még nincs F-Droid-ra feltöltve, de dolgozok rajta
 
 #### iOS:
-Az alkalmazás működik iOS-en is, mert Flutterben készült, de az AppStore-ba nem tettem fel, mert a fejlesztői fiók meglehetősen költséges.
+
+Az alkalmazás működik iOS-en is, mert Flutterben készült.
 
 Ennek ellenére [hajducsekb](https://github.com/hajducsekb) legyártott egy [.ipa fájlt](https://www.dropbox.com/s/3vzrqagpfhb6g8l/flutter_naplo.ipa?dl=0), amit Cydia Impactorral fel lehet telepíteni. [További infó a telepítésről](https://github.com/boapps/e-Szivacs-2/issues/30)
-
-
 
 ## Felhasznált nyílt forráskódú projectek:
 
